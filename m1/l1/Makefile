@@ -1,10 +1,12 @@
-build: 	exe lib
+build: 		link objects
 
-exe:	hello.h main.c lib lib
-		gcc main.c -fPIC -L. -lHello -o hello
+link:		objects
+			gcc -o hello hello.o main.o
 
-lib:	hello.h hello.c
-		gcc -shared hello.c -fPIC -o libHello.so
+objects:	hello.h hello.c main.c
+			gcc -o hello.o -c hello.c; gcc -o main.o -c main.c
 
 clean:
-		-rm hello libHello.so *.o 2>/dev/null
+			-rm hello libHello.so *.o 2>/dev/null
+
+
