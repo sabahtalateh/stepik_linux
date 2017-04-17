@@ -1,0 +1,6 @@
+#ifndef EX_2_DYNAMIC_LIBRARY_LIB_H
+#define EX_2_DYNAMIC_LIBRARY_LIB_H
+
+int plus2(int n);
+
+#endif //EX_2_DYNAMIC_LIBRARY_LIB_H
