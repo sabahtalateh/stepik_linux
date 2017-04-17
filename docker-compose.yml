@@ -1,0 +1,7 @@
+version: '2'
+services:
+        stepik_linux_ubuntu:
+                container_name: stepik_linux_ubuntu
+                build: .
+                volumes: 
+                        - .:/root/stepik_linux
