@@ -1,5 +1,6 @@
+#define _GNU_SOURCE
+#include <linux/sched.h>
 #include <stdio.h>
-#include <sched.h>
 #include <unistd.h>
 #include <stdbool.h>
 
