@@ -3,5 +3,5 @@ project(m3_homework)
 
 set(CMAKE_C_STANDARD 11)
 
-set(SOURCE_FILES ppid.c)
+set(SOURCE_FILES ppid.c proc_list.c)
 add_executable(m3_homework ${SOURCE_FILES})
