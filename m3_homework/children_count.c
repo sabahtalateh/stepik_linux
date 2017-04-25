@@ -9,7 +9,7 @@
 void find_children_for_pid(char const *pid, char *proc[100000][2], int *added_count, int *passed_count, int *proc_count,
                            char *proc_dir) {
 
-//    printf("proc = %s, passed = %d\n", pid, *passed_count);
+    printf("proc = %s, passed = %d\n", pid, *passed_count);
 
     int fd = open(proc_dir, O_RDONLY);
 
