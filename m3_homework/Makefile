@@ -9,3 +9,6 @@ pid_tree:		pid_tree.c
 
 children_count: children_count.c
 				gcc children_count.c -o children_count
+
+daemon:			daemon.c
+				gcc daemon.c -o daemon
