@@ -3,3 +3,6 @@ pipe_example:	pipe_example.c
 
 signal:			signal.c
 				gcc signal.c -o signal
+
+ipc:			ipc.c
+				gcc ipc.c -o ipc
