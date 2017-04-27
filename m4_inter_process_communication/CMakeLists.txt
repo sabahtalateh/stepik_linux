@@ -3,5 +3,5 @@ project(m4_inter_process_communication)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES main.c pipe_example.c)
+set(SOURCE_FILES main.c pipe_example.c ipc.c)
 add_executable(m4_inter_process_communication ${SOURCE_FILES})
